@@ -1,0 +1,31 @@
+{
+    "name": "local-storage-module",
+    "version": "0.0.1",
+    "author": {
+        "name": "Richard Clarke"
+    },
+    "email": "richard-clarke@hotmail.com",
+    "license": "MIT",
+    "homepage": "https://github.com/gbd77rc/local-storage-module",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gbd77rc/local-storage-module"
+    },
+    "directories": {
+        "lib": "./lib",
+        "test": "./test"
+    },
+    "dependencies": {
+        "q": "^1.0.1"
+    },
+    "devDependencies": {
+        "mocha": "^1.21.3",
+        "should": "^4.0.4",
+        "supertest": "^0.13.0"
+    },
+    "description": "This module will allow storage of data locally to the node application.",
+    "bugs": {
+        "url": "https://github.com/gbd77rc/local-storage-module/issues"
+    }
+}
